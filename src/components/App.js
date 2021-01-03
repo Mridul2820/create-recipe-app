@@ -1,5 +1,6 @@
 import React from 'react';
-import RecipeList from './RecipeList'
+import RecipeList from './RecipeList';
+import '../sass/app.scss'
 
 function App() {
     return (

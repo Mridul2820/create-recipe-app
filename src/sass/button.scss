@@ -1,0 +1,28 @@
+.btn {
+    font-size: inherit;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.btn--primary {
+    color: white;
+    background-color: rgb(17, 114, 206);
+
+    &:hover {
+        background-color: rgb(8, 78, 143);
+    }
+}
+
+.btn--denger {
+    color: white;
+    background-color: rgb(204, 10, 10);
+
+    &:hover {
+        background-color: rgb(143, 8, 8);
+    }
+}

@@ -1,0 +1,25 @@
+// @import-normalize;
+@import './font.scss';
+@import './recipe-list.scss';
+@import './button.scss';
+@import './recipe.scss';
+@import './ingredient-list.scss';
+
+*,
+*::after,
+*::before {
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    font-size: 22px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
