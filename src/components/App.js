@@ -1,11 +1,12 @@
 import React, {useState, useEffect } from 'react';
 import RecipeList from './RecipeList';
+import RecipeEdit from './RecipeEdit';
 import '../sass/app.scss';
 import { v4 as uuidv4 } from "uuid";
 
-export const RecipeContext = React.createContext()
+export const RecipeContext = React.createContext();
 
-const LOCAL_STORAGE_KEY = 'cookingWithReact.recipes'
+const LOCAL_STORAGE_KEY = 'cookingWithReact.recipes';
 
 function App() {
     const [recipes, setRecipes] = useState(sampleRecipes)
@@ -46,6 +47,8 @@ function App() {
     return (
         <RecipeContext.Provider value={recipeContextValue}>
             <RecipeList recipes={recipes} />
+
+            <RecipeEdit/>
         </RecipeContext.Provider>
 
     )

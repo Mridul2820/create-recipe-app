@@ -4,10 +4,13 @@
 @import './button.scss';
 @import './recipe.scss';
 @import './ingredient-list.scss';
+@import './recipe-edit.scss';
+
 
 *,
 *::after,
 *::before {
+    box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
 
