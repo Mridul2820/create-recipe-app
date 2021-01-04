@@ -1,15 +1,19 @@
 import React from 'react'
 
-export default function RecipeIngredientEdit() {
+export default function RecipeIngredientEdit({ingredient}) {
     return (
-        <div className="recipe-edit__ingredients-grid">
+        <>
             <input 
                 className="recipe-edit__input" 
-                type="text"/>
+                type="text"
+                value={ingredient.name}
+            />
             <input 
                 className="recipe-edit__input" 
-                type="text"/>
+                type="text"
+                value={ingredient.amount}
+            />
             <button className="btn btn--denger">&times;</button>
-        </div>
+        </>
     )
 }
