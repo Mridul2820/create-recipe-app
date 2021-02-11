@@ -1,6 +1,13 @@
 
 ## Recipe List App with React
 
-### `React App`
+# Create Your own Recipes 
 
-Check The App [Recipe List](https://recipelistapp.netlify.app/).
+## Available Deploy on Netlify
+
+The Project can be viewd at [Netlify](https://recipelistapp.netlify.app/)
+
+## Available Deploy on Vercel
+
+The Project can be viewd at [Vercel](https://create-recipe-app.vercel.app/)
+
