@@ -11,3 +11,5 @@ The Project can be viewd at [Netlify](https://recipelistapp.netlify.app/)
 
 The Project can be viewd at [Vercel](https://create-recipe-app.vercel.app/)
 
+### Screenshot 
+<img align="left" src="https://github.com/Mridul2820/apps-react/blob/master/public/image/create-recipe-app.png" alt="react app" width="100%">
